@@ -4,6 +4,7 @@ Modular multiplayer ready assets for Unity using Mirror network framework
 Components | All this components are syncronized with all players connected to the server
  - Player
  	- Inventory
+ - Pickups
  - Health (You can add health component to any gameobject and be destroyed by a weapon)
  - Weapons
  - Cars
