@@ -1,5 +1,5 @@
 # GameCreator
-Modular multiplayer ready assets for Unity using Mirror 25.1.2
+Modular multiplayer ready assets for Unity using Mirror network framework
 
 Components | All this components are syncronized with all players connected to the server
  - Player
@@ -8,4 +8,6 @@ Components | All this components are syncronized with all players connected to t
  - Weapons
  - Cars
 
-Working on Unity 2020.1.4f1
+Working on Unity 2020.1.4f1 and Mirror 25.1.2
+
+Please keep in mind this project is not production ready, clients probably can cheat!
