@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{FF68B79C-2261-28C8-FB25-DC3F8E258CF3}</ProjectGuid>
+    <ProjectGuid>{51C43D94-52E8-5A90-E2E7-E3D00A97B565}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror</AssemblyName>
@@ -672,11 +672,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{224A6129-11CA-15FB-DF95-38170F988D84}</Project>
+      <Project>{489DCEF0-E0A0-08D7-898C-E4DE3DD1D806}</Project>
       <Name>Mirror.CompilerSymbols</Name>
     </ProjectReference>
     <ProjectReference Include="Telepathy.csproj">
-      <Project>{95017E46-3185-0AC4-BE7A-F8D8D81FAF5E}</Project>
+      <Project>{9BA10E9F-DB9F-3A71-F512-6BDC0FF3F719}</Project>
       <Name>Telepathy</Name>
     </ProjectReference>
   </ItemGroup>

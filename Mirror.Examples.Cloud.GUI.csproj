@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{E4D2CF00-1D22-46C8-F9E7-A9E68F45C017}</ProjectGuid>
+    <ProjectGuid>{8DB55C8B-FCB4-3B10-5E9A-4D9C7C4D3659}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Examples.Cloud.GUI</AssemblyName>
@@ -631,11 +631,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{FF68B79C-2261-28C8-FB25-DC3F8E258CF3}</Project>
+      <Project>{51C43D94-52E8-5A90-E2E7-E3D00A97B565}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Cloud.csproj">
-      <Project>{29045D09-BAF5-CA4D-55DE-054512D1C433}</Project>
+      <Project>{CB328686-7AB6-4B3B-A1FB-4C684EFD8669}</Project>
       <Name>Mirror.Cloud</Name>
     </ProjectReference>
   </ItemGroup>

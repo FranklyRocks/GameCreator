@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{95017E46-3185-0AC4-BE7A-F8D8D81FAF5E}</ProjectGuid>
+    <ProjectGuid>{9BA10E9F-DB9F-3A71-F512-6BDC0FF3F719}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Telepathy</AssemblyName>

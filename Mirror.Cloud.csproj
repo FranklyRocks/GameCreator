@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{29045D09-BAF5-CA4D-55DE-054512D1C433}</ProjectGuid>
+    <ProjectGuid>{CB328686-7AB6-4B3B-A1FB-4C684EFD8669}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Cloud</AssemblyName>
@@ -639,7 +639,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{FF68B79C-2261-28C8-FB25-DC3F8E258CF3}</Project>
+      <Project>{51C43D94-52E8-5A90-E2E7-E3D00A97B565}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
   </ItemGroup>

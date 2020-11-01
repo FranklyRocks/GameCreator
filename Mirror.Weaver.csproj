@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C2228819-AF99-D5B6-C3EF-32E70BF74278}</ProjectGuid>
+    <ProjectGuid>{8ED69EE7-A5E9-B769-742D-B333EEF319F0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Mirror.Weaver</AssemblyName>
@@ -661,7 +661,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{FF68B79C-2261-28C8-FB25-DC3F8E258CF3}</Project>
+      <Project>{51C43D94-52E8-5A90-E2E7-E3D00A97B565}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
   </ItemGroup>

@@ -6,6 +6,13 @@ using Mirror;
 
 public class PlayerStateManager : NetworkBehaviour
 {
+    Inventory inventory;
+
+    private void Start()
+    {
+        TryGetComponent(out inventory);
+    }
+
     public enum states {
         Walking,
         Driving
@@ -39,7 +46,14 @@ public class PlayerStateManager : NetworkBehaviour
                     EnterCar(col.transform.gameObject);
                     return;
                 case "Item":
-                    GetComponent<Inventory>().AddItem(col.transform.GetComponent<Pickup>().pickupPrefab);
+                    // Invoke Effects, Collect items if any and destroy (Prevent from collect again)
+                    Pickup loot = col.transform.GetComponent<Pickup>();
+                    loot.InvokeEffects(gameObject);
+                    foreach (GameObject item in loot.items)
+                    {
+                        inventory.AddItem(item);
+                    }
+                    Destroy(col.transform.gameObject);
                     return;
             }
         }

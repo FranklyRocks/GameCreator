@@ -20,6 +20,12 @@ public class Health : NetworkBehaviour
     }
 
     [Server]
+    public void Cure(float amount)
+    {
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+    } 
+
+    [Server]
     void Die()
     {
         NetworkServer.Destroy(gameObject);

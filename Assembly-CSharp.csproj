@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{91EBFE91-8262-18C0-0B34-85E570EFB08C}</ProjectGuid>
+    <ProjectGuid>{5EDB99DA-8508-6B5E-D65B-E4F4FC9C5F9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,9 +61,9 @@
     <Compile Include="Assets\Item.cs" />
     <Compile Include="Assets\Player\PlayerStateManager.cs" />
     <Compile Include="Assets\Car\CarController.cs" />
-    <Compile Include="Assets\Weapon.cs" />
+    <Compile Include="Assets\Weapon\Weapon.cs" />
     <Compile Include="Assets\Pickup.cs" />
-    <Compile Include="Assets\Inventory.cs" />
+    <Compile Include="Assets\Player\Inventory.cs" />
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\Misc\FollowAndOrbit.cs" />
     <Compile Include="Assets\Player\PlayerInput.cs" />
@@ -653,55 +653,55 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Mirror.Weaver.csproj">
-      <Project>{C2228819-AF99-D5B6-C3EF-32E70BF74278}</Project>
+      <Project>{8ED69EE7-A5E9-B769-742D-B333EEF319F0}</Project>
       <Name>Mirror.Weaver</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Authenticators.csproj">
-      <Project>{0A3BAA3D-7327-54A4-5C45-771C9EB5DB60}</Project>
+      <Project>{377138DB-2AED-0CA3-E76E-77511699128B}</Project>
       <Name>Mirror.Authenticators</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Components.csproj">
-      <Project>{7AA4826E-E5DC-7A1C-DDF2-0057768101F5}</Project>
+      <Project>{A43F4BDA-08AE-A74F-DD0F-726DC66097B5}</Project>
       <Name>Mirror.Components</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.csproj">
-      <Project>{D8844869-0403-9F71-5FC7-08C32F996D5E}</Project>
+      <Project>{2A3C045E-E759-6B2E-B6C3-DC9D08C3E964}</Project>
       <Name>Mirror.Examples</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.CompilerSymbols.csproj">
-      <Project>{224A6129-11CA-15FB-DF95-38170F988D84}</Project>
+      <Project>{489DCEF0-E0A0-08D7-898C-E4DE3DD1D806}</Project>
       <Name>Mirror.CompilerSymbols</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Cloud.csproj">
-      <Project>{29045D09-BAF5-CA4D-55DE-054512D1C433}</Project>
+      <Project>{CB328686-7AB6-4B3B-A1FB-4C684EFD8669}</Project>
       <Name>Mirror.Cloud</Name>
     </ProjectReference>
     <ProjectReference Include="Telepathy.csproj">
-      <Project>{95017E46-3185-0AC4-BE7A-F8D8D81FAF5E}</Project>
+      <Project>{9BA10E9F-DB9F-3A71-F512-6BDC0FF3F719}</Project>
       <Name>Telepathy</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.Cloud.Pong.csproj">
-      <Project>{1E71C162-B85B-6B7E-EBA1-BDC3244C23E8}</Project>
+      <Project>{0FBC6B91-2973-EBDA-ED65-E131254DCE87}</Project>
       <Name>Mirror.Examples.Cloud.Pong</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.csproj">
-      <Project>{FF68B79C-2261-28C8-FB25-DC3F8E258CF3}</Project>
+      <Project>{51C43D94-52E8-5A90-E2E7-E3D00A97B565}</Project>
       <Name>Mirror</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.example.RigidbodyPhysics.csproj">
-      <Project>{D0B16266-FB20-1BF7-8112-9C7A44D67D2E}</Project>
+      <Project>{35E472E3-BE79-5398-16DB-CAB20967BEEE}</Project>
       <Name>Mirror.example.RigidbodyPhysics</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Editor.csproj">
-      <Project>{4F003E94-64C9-A1D7-235A-EA7F64A32B83}</Project>
+      <Project>{8153A627-14D5-CCA8-C333-DDB2ECF540EB}</Project>
       <Name>Mirror.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Mirror.Examples.Cloud.GUI.csproj">
-      <Project>{E4D2CF00-1D22-46C8-F9E7-A9E68F45C017}</Project>
+      <Project>{8DB55C8B-FCB4-3B10-5E9A-4D9C7C4D3659}</Project>
       <Name>Mirror.Examples.Cloud.GUI</Name>
     </ProjectReference>
     <ProjectReference Include="SimpleWebTransport.csproj">
-      <Project>{D85C734B-DC6F-2FDB-4F07-B1C1FE990BC6}</Project>
+      <Project>{FB8E1143-A6C3-03CD-7943-CD17F29D8111}</Project>
       <Name>SimpleWebTransport</Name>
     </ProjectReference>
   </ItemGroup>
