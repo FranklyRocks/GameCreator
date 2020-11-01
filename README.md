@@ -16,6 +16,6 @@ Components | All this components are syncronized with all players connected to t
  
 ## Pickups
 - Chest behaviour (collect multiple items at once)
-- Create pickup Effects (health increase effect already added), easy extensible to add any custom effects.
+- Add consumable effects on collect (health increase effect already added), easy extensible to add any custom effects.
 
 Please keep in mind this project is not production ready, clients probably can cheat!
