@@ -8,6 +8,8 @@ Components | All this components are syncronized with all players connected to t
  - Health (You can add health component to any gameobject and be destroyed by a weapon)
  - Weapons
  - Cars
+ - Cameras
+ - Movement
 
 Working on Unity 2020.1.4f1 and Mirror 25.1.2
 
