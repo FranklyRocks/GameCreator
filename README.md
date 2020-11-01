@@ -3,7 +3,7 @@ Modular multiplayer ready assets for Unity using Mirror network framework
 
 Working on Unity 2020.1.4f1 and Mirror 25.1.2
 
-Components | All this components are syncronized with all players connected to the server
+All this components are syncronized with all players connected to the server:
  - Player
  	- Inventory
  - Pickups
