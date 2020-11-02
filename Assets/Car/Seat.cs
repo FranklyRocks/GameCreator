@@ -17,6 +17,7 @@ public class Seat : NetworkBehaviour
 
     void Update()
     {
+        if (!driver) return;
         car.torque = driver.vertical;
         car.steer = driver.horizontal;
     }

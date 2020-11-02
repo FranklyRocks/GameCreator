@@ -5,6 +5,7 @@ public class PlayerInput : NetworkBehaviour
 {
     CharacterMovement characterMovement;
     PlayerStateManager playerStateManager;
+    Inventory inventory;
 
     public float vertical;
     public float horizontal;
@@ -13,6 +14,7 @@ public class PlayerInput : NetworkBehaviour
     {
         characterMovement = GetComponent<CharacterMovement>();
         playerStateManager = GetComponent<PlayerStateManager>();
+        inventory = GetComponent<Inventory>();
 
         if (!isLocalPlayer) enabled = false;
 
@@ -21,7 +23,7 @@ public class PlayerInput : NetworkBehaviour
     public override void OnStartLocalPlayer()
     {
         CameraOrbit camConfig = FindObjectOfType<CameraOrbit>();
-        camConfig.target = (transform);
+        camConfig.target = transform;
 
         /*
         FollowAndOrbit camConfig = Camera.main.GetComponent<FollowAndOrbit>();
@@ -53,7 +55,7 @@ public class PlayerInput : NetworkBehaviour
         {
             // If player if driving do not execute inventory actions
             if (playerStateManager.currentState == PlayerStateManager.states.Driving) return;
-            Inventory inventory = GetComponent<Inventory>();
+            if (inventory.items.Count == 0 || !inventory.items[inventory.selectedItem]) return;
             inventory.items[inventory.selectedItem].GetComponent<Item>().Action();
         }
     }
